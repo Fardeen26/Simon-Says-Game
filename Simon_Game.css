@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(20, 18, 18);
+  color: #fff;
+  font-family: "Bubblegum Sans", cursive;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFiV6OKxDN3FCM-_elsTfi4hi667IzbSDgdQ&usqp=CAU");
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+
+}
+ 
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: right;
+  margin-top: 60px;
+}
+
+.col-10 {
+  width: 66.333333% !important;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 420px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.box {
+  height: 170px;
+  width: 170px;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.line-two {
+  margin-left: 5px;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+  margin-top: 20px;
+}
+
+.yellow {
+  background-color: rgb(252, 109, 0);
+  margin-top: 20px;
+}
+
+.flash {
+  background-color: #fff;
+}
+
+.userFlash {
+  background-color: black;
+}
+
+.highScr {
+  display: inline;
+  width: 10vw;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+.highScr p {
+  display: inline;
+  font-size: 28px;
+}
+
+#playIcon {
+  cursor: pointer;
+}
+
+.pauseBox {
+  width: 20.593333333333332vw;
+  height: 41.72560113154172vh;
+  background-color: rgb(4, 14, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25.5vh;
+  border-radius: 10px;
+  left: 39.7vw;
+}
+
+#pauseBtn {
+  position: relative;
+}
+#pauseBtn i {
+  position: absolute;
+  top: 2px;
+  left: 75px;
+  cursor: pointer;
+}
